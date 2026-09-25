@@ -4,6 +4,7 @@ SwiftKeyer is a native macOS application for the K1EL WinKeyerSerial, WinKeyerUS
 
 The application listens for XML-RPC requests on `127.0.0.1:8000`. The server is intentionally limited to the local machine so that the unauthenticated control API is not exposed to the network.
 
+![Screenshot](pic/SwiftKeyerScreen.png)
 ## Requirements
 
 - macOS 14 or later
