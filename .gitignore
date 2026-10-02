@@ -4,6 +4,17 @@
 
 ## User settings
 xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+## Build output
+# Normally DerivedData lives in ~/Library/Developer/Xcode/DerivedData, but ignore it in
+# case a custom SYMROOT or DERIVED_DATA_DIR is ever pointed inside the repository.
+DerivedData/
+# `xcodebuild -target` (as opposed to -scheme) defaults its build directory to ./build
+# in the project root. Use -scheme, or delete this line and ignore the noise at the source.
+build/
 
 ## Obj-C/Swift specific
 *.hmap
@@ -19,11 +30,13 @@ playground.xcworkspace
 
 # Swift Package Manager
 #
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# If you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
 # Package.resolved
-# *.xcodeproj
+
+# NOTE: *.xcodeproj is intentionally NOT ignored. SwiftKeyer.xcodeproj is checked in so
+# the project can be opened and built in Xcode without running any generator.
 #
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
@@ -61,4 +74,6 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 .vscode/launch.json
+.DS_Store
+Sources/.DS_Store
 .DS_Store
