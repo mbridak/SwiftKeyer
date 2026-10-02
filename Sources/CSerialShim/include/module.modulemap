@@ -1,0 +1,4 @@
+module CSerialShim {
+    header "CSerialShim.h"
+    export *
+}

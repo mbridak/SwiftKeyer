@@ -12,7 +12,26 @@ The application listens for XML-RPC requests on `127.0.0.1:8000`. The server is 
 - A connected WinKeyer-compatible device
 - A user-accessible serial device such as `/dev/cu.usbserial-*`
 
-## Build and run
+## Build and run in Xcode
+
+Open `SwiftKeyer.xcodeproj`, select the `SwiftKeyer` scheme, and run. The project
+contains four targets that mirror the Swift package layout:
+
+- `SwiftKeyerApp` — the SwiftUI macOS application
+- `SwiftKeyerCore` — serial transport, WinKeyer protocol, settings, and XML-RPC
+- `CSerialShim` — the small Darwin `select` and `FIONREAD` shim
+- `SwiftKeyerCoreTests` — protocol, settings, and XML-RPC tests
+
+The app target is configured to **Sign to Run Locally**, so it builds and runs
+without a development team. To distribute the app, set your team under Signing &
+ Capabilities and enable Hardened Runtime.
+
+Sources are referenced directly from `Sources` and `Tests`, so there is no
+duplicated copy of the code in the project.
+
+## Build and run from the command line
+
+The Swift package is still the supported command-line build:
 
 ```bash
 swift build
@@ -30,6 +49,13 @@ To create a release build:
 
 ```bash
 swift build -c release
+```
+
+The same operations run through `xcodebuild`:
+
+```bash
+xcodebuild -project SwiftKeyer.xcodeproj -scheme SwiftKeyer build
+xcodebuild -project SwiftKeyer.xcodeproj -scheme SwiftKeyer test
 ```
 
 ## Serial connection
@@ -77,7 +103,8 @@ The RPC API has no authentication. Keep the server bound to loopback and do not 
 
 - `Sources/SwiftKeyerCore` contains the serial transport, WinKeyer protocol, settings, controller, and XML-RPC implementation.
 - `Sources/SwiftKeyerApp` contains the SwiftUI application and app lifecycle.
-- `Sources/CSerialShim` contains the small Darwin `select` and `FIONREAD` shim used by the serial port.
+- `Sources/CSerialShim` contains the small Darwin `select` and `FIONREAD` shim used by the serial port, along with the module map that exposes it to Swift.
 - `Tests/SwiftKeyerCoreTests` contains protocol, settings, and XML-RPC tests.
+- `SwiftKeyer.xcodeproj` is the Xcode project; it references the directories above in place rather than duplicating them.
 
 The application is implemented entirely in Swift and does not require a Python runtime.
