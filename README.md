@@ -1,6 +1,6 @@
 # SwiftKeyer
 
-SwiftKeyer is a native macOS application for the K1EL WinKeyerSerial, WinKeyerUSB, and WKMini. It provides a SwiftUI interface for sending CW text, editing and sending macros, configuring paddle behavior, and controlling the keyer speed.
+SwiftKeyer is a native macOS application for the K1EL WinKeyerSerial, WinKeyerUSB, and WKMini. It provides a SwiftUI interface for sending CW text, editing and sending macros, configuring paddle behavior, and controlling the keyer speed. It was ported to Swift from my original Python application [PyWinkeyerSerial](https://github.com/mbridak/PyWinKeyerSerial).
 
 It's primary purpose, other than a stand alone interface to the winkeyer, is to act as a CW interface for the [not1mm](https://github.com/mbridak/not1mm) contest logger.
 
@@ -14,22 +14,9 @@ The application listens for XML-RPC requests on `127.0.0.1:8000`. The server is 
 - A connected WinKeyer-compatible device
 - A user-accessible serial device such as `/dev/cu.usbserial-*`
 
-## Build and run in Xcode
+## The Binary
 
-Open `SwiftKeyer.xcodeproj`, select the `SwiftKeyer` scheme, and run. The project
-contains four targets that mirror the Swift package layout:
-
-- `SwiftKeyerApp` — the SwiftUI macOS application
-- `SwiftKeyerCore` — serial transport, WinKeyer protocol, settings, and XML-RPC
-- `CSerialShim` — the small Darwin `select` and `FIONREAD` shim
-- `SwiftKeyerCoreTests` — protocol, settings, and XML-RPC tests
-
-The app target is configured to **Sign to Run Locally**, so it builds and runs
-without a development team. To distribute the app, set your team under Signing &
- Capabilities and enable Hardened Runtime.
-
-Sources are referenced directly from `Sources` and `Tests`, so there is no
-duplicated copy of the code in the project.
+I've included a universal binary for MacOS 14+ in the releases section. UnZip it and drag it into your Application directory. You'll have to bypass gatekeeper, or locate the app in finder and hold Control while clicking on it, choose open in the pop up menu a couple times and it will be whitelisted.
 
 ## Build and run from the command line
 
@@ -51,13 +38,6 @@ To create a release build:
 
 ```bash
 swift build -c release
-```
-
-The same operations run through `xcodebuild`:
-
-```bash
-xcodebuild -project SwiftKeyer.xcodeproj -scheme SwiftKeyer build
-xcodebuild -project SwiftKeyer.xcodeproj -scheme SwiftKeyer test
 ```
 
 ## Serial connection
@@ -109,4 +89,4 @@ The RPC API has no authentication. Keep the server bound to loopback and do not 
 - `Tests/SwiftKeyerCoreTests` contains protocol, settings, and XML-RPC tests.
 - `SwiftKeyer.xcodeproj` is the Xcode project; it references the directories above in place rather than duplicating them.
 
-The application is implemented entirely in Swift and does not require a Python runtime.
+The application is implemented entirely in Swift.
