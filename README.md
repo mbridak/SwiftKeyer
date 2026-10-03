@@ -16,7 +16,7 @@ The application listens for XML-RPC requests on `127.0.0.1:8000`. The server is 
 
 ## The Binary
 
-I've included a universal binary for MacOS 14+ in the releases section. UnZip it and drag it into your Application directory. You'll have to bypass gatekeeper, or locate the app in finder and hold Control while clicking on it, choose open in the pop up menu a couple times and it will be whitelisted.
+I've included a universal binary for MacOS 14+ in the [releases](https://github.com/mbridak/SwiftKeyer/releases/latest) section. UnZip it and drag it into your Application directory. You'll have to bypass gatekeeper, or locate the app in finder and hold Control while clicking on it, choose open in the pop up menu a couple times and it will be whitelisted.
 
 ## Build and run from the command line
 
