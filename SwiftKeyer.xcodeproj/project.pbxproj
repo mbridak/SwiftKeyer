@@ -3,42 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B95D8CCF332683BAC930B8A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99340611A8F7CB407B5CC2 /* CB99340611A8F7CB407B5CC2 */; };
-		8B454CBF3C3274DE86271B5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F1634AAAFDFD33D380758 /* AC9F1634AAAFDFD33D380758 */; };
-		786DB3FE41FEBF4003944F78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199A99D4B680F8A488A5996 /* 2199A99D4B680F8A488A5996 */; };
-		3056A1D250303364C3D9AB58 /* SwiftKeyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D946413127C96D96D0E7811 /* 9D946413127C96D96D0E7811 */; };
-		9AA2272483BC6958621F3A2D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D10CDE3FB46AE4EBD2A54F2 /* 0D10CDE3FB46AE4EBD2A54F2 */; };
-		5C0C587DA7CBDD0862B9C759 /* LiveTextDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D21C2B630A11D946EDCBD /* 0D2D21C2B630A11D946EDCBD */; };
-		8CF2D14509DAB0800B50C62B /* SerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B76E93ACFF93FE6F759950 /* 86B76E93ACFF93FE6F759950 */; };
-		2F6728E29CCB5A3E71FA1589 /* SerialPortDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721B2CAA96AA1552E3A51100 /* 721B2CAA96AA1552E3A51100 */; };
-		ECD381D15163DE36C5E6B132 /* WinKeyerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E69EF3399B149B4FEEF82 /* A91E69EF3399B149B4FEEF82 */; };
-		C53F9CE0DD92E293B5978B6B /* WinKeyerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC35C340224C1F5D85F14BD /* 3DC35C340224C1F5D85F14BD */; };
-		4B2F285A635C56BB96D332F2 /* XMLRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8F2E3F7619261A4FD0DD65 /* 5D8F2E3F7619261A4FD0DD65 */; };
-		14592E96B66213B68742F9AB /* XMLRPCREST.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC196EEB9CE9B01224937B23 /* FC196EEB9CE9B01224937B23 */; };
-		F0008AF006912B185019A4A8 /* XMLRPCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90874EA7446304EEAD35975 /* E90874EA7446304EEAD35975 */; };
-		96B588DC9DED1791EF9F02EC /* AppSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC02498954E143A31C27CB /* 9DEC02498954E143A31C27CB */; };
-		721228EFED8580BBAA245DD9 /* WinKeyerProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79C2E8BC607E10F5EDEB22D /* C79C2E8BC607E10F5EDEB22D */; };
-		66983CB0A2D6A7EDEFA52C14 /* XMLRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C57FDFA579FD32F2663F63 /* C7C57FDFA579FD32F2663F63 */; };
-		51A28BB34C2B0263858F3394 /* shim.c in Sources */ = {isa = PBXBuildFile; fileRef = BA32507AF49A35D505D61D07 /* BA32507AF49A35D505D61D07 */; };
-		C23B2F9AF445A03CCDDE400C /* CSerialShim.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33FC6FF96573E7CA7ACAE2 /* 5B33FC6FF96573E7CA7ACAE2 */; };
-		B83C7F4CDBA7F65BE6E2A95E /* libCSerialShim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB1E87E19B8D460F81633D /* AEEB1E87E19B8D460F81633D */; };
-		18CB394D7C5BE64704EE9D6D /* libCSerialShim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB1E87E19B8D460F81633D /* AEEB1E87E19B8D460F81633D */; };
-		EC18EE9957B52099549AF3E5 /* libSwiftKeyerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28931E77480B5DE73FF1FA1 /* E28931E77480B5DE73FF1FA1 */; };
-		77A4E646EF78E6DAA3978892 /* libSwiftKeyerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28931E77480B5DE73FF1FA1 /* E28931E77480B5DE73FF1FA1 */; };
+		14592E96B66213B68742F9AB /* XMLRPCREST.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC196EEB9CE9B01224937B23 /* XMLRPCREST.swift */; };
+		18CB394D7C5BE64704EE9D6D /* libCSerialShim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB1E87E19B8D460F81633D /* libCSerialShim.a */; };
+		2F6728E29CCB5A3E71FA1589 /* SerialPortDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721B2CAA96AA1552E3A51100 /* SerialPortDiscovery.swift */; };
+		3056A1D250303364C3D9AB58 /* SwiftKeyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D946413127C96D96D0E7811 /* SwiftKeyerApp.swift */; };
+		3B95D8CCF332683BAC930B8A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99340611A8F7CB407B5CC2 /* AppModel.swift */; };
+		4B2F285A635C56BB96D332F2 /* XMLRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8F2E3F7619261A4FD0DD65 /* XMLRPC.swift */; };
+		51A28BB34C2B0263858F3394 /* shim.c in Sources */ = {isa = PBXBuildFile; fileRef = BA32507AF49A35D505D61D07 /* shim.c */; };
+		5C0C587DA7CBDD0862B9C759 /* LiveTextDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D21C2B630A11D946EDCBD /* LiveTextDiff.swift */; };
+		66983CB0A2D6A7EDEFA52C14 /* XMLRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C57FDFA579FD32F2663F63 /* XMLRPCTests.swift */; };
+		721228EFED8580BBAA245DD9 /* WinKeyerProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79C2E8BC607E10F5EDEB22D /* WinKeyerProtocolTests.swift */; };
+		77A4E646EF78E6DAA3978892 /* libSwiftKeyerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */; };
+		786DB3FE41FEBF4003944F78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199A99D4B680F8A488A5996 /* SettingsView.swift */; };
+		8B454CBF3C3274DE86271B5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F1634AAAFDFD33D380758 /* ContentView.swift */; };
+		8CF2D14509DAB0800B50C62B /* SerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B76E93ACFF93FE6F759950 /* SerialPort.swift */; };
+		96B588DC9DED1791EF9F02EC /* AppSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC02498954E143A31C27CB /* AppSettingsTests.swift */; };
+		9AA2272483BC6958621F3A2D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D10CDE3FB46AE4EBD2A54F2 /* AppSettings.swift */; };
+		B83C7F4CDBA7F65BE6E2A95E /* libCSerialShim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB1E87E19B8D460F81633D /* libCSerialShim.a */; };
+		C23B2F9AF445A03CCDDE400C /* CSerialShim.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */; };
+		C53F9CE0DD92E293B5978B6B /* WinKeyerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC35C340224C1F5D85F14BD /* WinKeyerProtocol.swift */; };
+		DE68449A30715BB90091587B /* swiftkeyer 2.icon in Resources */ = {isa = PBXBuildFile; fileRef = DE68449930715BB90091587B /* swiftkeyer 2.icon */; };
+		EC18EE9957B52099549AF3E5 /* libSwiftKeyerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */; };
+		ECD381D15163DE36C5E6B132 /* WinKeyerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E69EF3399B149B4FEEF82 /* WinKeyerController.swift */; };
+		F0008AF006912B185019A4A8 /* XMLRPCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90874EA7446304EEAD35975 /* XMLRPCServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		473892E0DC1D425873A8A8CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72DDE366EEFF0E902E3D05F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5D3B7D3F44F57D65AC0AA0F;
-			remoteInfo = CSerialShim;
-		};
 		148C956F9BED8DE8641F81DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 72DDE366EEFF0E902E3D05F2 /* Project object */;
@@ -53,6 +47,13 @@
 			remoteGlobalIDString = 76F679FD2E3B90C4F9B2654A;
 			remoteInfo = SwiftKeyerCore;
 		};
+		473892E0DC1D425873A8A8CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DDE366EEFF0E902E3D05F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D3B7D3F44F57D65AC0AA0F;
+			remoteInfo = CSerialShim;
+		};
 		7FE0BFFA22B4D962DE19E674 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 72DDE366EEFF0E902E3D05F2 /* Project object */;
@@ -63,29 +64,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB99340611A8F7CB407B5CC2 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		AC9F1634AAAFDFD33D380758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2199A99D4B680F8A488A5996 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		9D946413127C96D96D0E7811 /* SwiftKeyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeyerApp.swift; sourceTree = "<group>"; };
 		0D10CDE3FB46AE4EBD2A54F2 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		0D2D21C2B630A11D946EDCBD /* LiveTextDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextDiff.swift; sourceTree = "<group>"; };
-		86B76E93ACFF93FE6F759950 /* SerialPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPort.swift; sourceTree = "<group>"; };
-		721B2CAA96AA1552E3A51100 /* SerialPortDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPortDiscovery.swift; sourceTree = "<group>"; };
-		A91E69EF3399B149B4FEEF82 /* WinKeyerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinKeyerController.swift; sourceTree = "<group>"; };
+		2199A99D4B680F8A488A5996 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		23F170A8F9DB14EB4ADC5D79 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		3DC35C340224C1F5D85F14BD /* WinKeyerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinKeyerProtocol.swift; sourceTree = "<group>"; };
+		5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSerialShim.h; sourceTree = "<group>"; };
 		5D8F2E3F7619261A4FD0DD65 /* XMLRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPC.swift; sourceTree = "<group>"; };
-		FC196EEB9CE9B01224937B23 /* XMLRPCREST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPCREST.swift; sourceTree = "<group>"; };
-		E90874EA7446304EEAD35975 /* XMLRPCServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPCServer.swift; sourceTree = "<group>"; };
+		721B2CAA96AA1552E3A51100 /* SerialPortDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPortDiscovery.swift; sourceTree = "<group>"; };
+		86B76E93ACFF93FE6F759950 /* SerialPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPort.swift; sourceTree = "<group>"; };
+		977AFB48D15CE615F2279992 /* SwiftKeyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKeyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D946413127C96D96D0E7811 /* SwiftKeyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeyerApp.swift; sourceTree = "<group>"; };
 		9DEC02498954E143A31C27CB /* AppSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsTests.swift; sourceTree = "<group>"; };
+		A91E69EF3399B149B4FEEF82 /* WinKeyerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinKeyerController.swift; sourceTree = "<group>"; };
+		AC9F1634AAAFDFD33D380758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEEB1E87E19B8D460F81633D /* libCSerialShim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSerialShim.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32507AF49A35D505D61D07 /* shim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shim.c; sourceTree = "<group>"; };
 		C79C2E8BC607E10F5EDEB22D /* WinKeyerProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinKeyerProtocolTests.swift; sourceTree = "<group>"; };
 		C7C57FDFA579FD32F2663F63 /* XMLRPCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPCTests.swift; sourceTree = "<group>"; };
-		BA32507AF49A35D505D61D07 /* shim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shim.c; sourceTree = "<group>"; };
-		5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSerialShim.h; sourceTree = "<group>"; };
-		23F170A8F9DB14EB4ADC5D79 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		977AFB48D15CE615F2279992 /* SwiftKeyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKeyer.app; sourceTree = "<group>"; };
-		E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftKeyerCore.a; sourceTree = "<group>"; };
-		AEEB1E87E19B8D460F81633D /* libCSerialShim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSerialShim.a; sourceTree = "<group>"; };
-		EB01C81EA8384F5396E638ED /* SwiftKeyerCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKeyerCoreTests.xctest; sourceTree = "<group>"; };
+		CB99340611A8F7CB407B5CC2 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		DE68449930715BB90091587B /* swiftkeyer 2.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "swiftkeyer 2.icon"; sourceTree = "<group>"; };
+		E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftKeyerCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90874EA7446304EEAD35975 /* XMLRPCServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPCServer.swift; sourceTree = "<group>"; };
+		EB01C81EA8384F5396E638ED /* SwiftKeyerCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKeyerCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC196EEB9CE9B01224937B23 /* XMLRPCREST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLRPCREST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,14 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F11C49D50F73C1EFE5E0C043 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B83C7F4CDBA7F65BE6E2A95E /* libCSerialShim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,40 +115,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F11C49D50F73C1EFE5E0C043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83C7F4CDBA7F65BE6E2A95E /* libCSerialShim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A4B39DD2B447031F4C31803 /* SwiftKeyer */ = {
+		1E6357C6F9408C25580BEF4C /* include */ = {
 			isa = PBXGroup;
 			children = (
-				A4138A8DF8741937BB4E9D38 /* Sources */,
-				53D93AF12B17DB8897526A12 /* Tests */,
-				C7FA6F0BEDBE05EDD23FFB87 /* Products */,
+				5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */,
+				23F170A8F9DB14EB4ADC5D79 /* module.modulemap */,
 			);
-			name = SwiftKeyer;
-			sourceTree = "<group>";
-		};
-		A4138A8DF8741937BB4E9D38 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D53811CFC242896D993F82B4 /* SwiftKeyerApp */,
-				38840456337C4814F54CEA63 /* SwiftKeyerCore */,
-				92E7CDAE3ED09A72B4B25C4C /* CSerialShim */,
-			);
-			path = Sources;
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		D53811CFC242896D993F82B4 /* SwiftKeyerApp */ = {
-			isa = PBXGroup;
-			children = (
-				CB99340611A8F7CB407B5CC2 /* AppModel.swift */,
-				AC9F1634AAAFDFD33D380758 /* ContentView.swift */,
-				2199A99D4B680F8A488A5996 /* SettingsView.swift */,
-				9D946413127C96D96D0E7811 /* SwiftKeyerApp.swift */,
-			);
-			path = SwiftKeyerApp;
-			name = SwiftKeyerApp;
+			path = include;
 			sourceTree = "<group>";
 		};
 		38840456337C4814F54CEA63 /* SwiftKeyerCore */ = {
@@ -171,7 +149,25 @@
 				E90874EA7446304EEAD35975 /* XMLRPCServer.swift */,
 			);
 			path = SwiftKeyerCore;
-			name = SwiftKeyerCore;
+			sourceTree = "<group>";
+		};
+		4A4B39DD2B447031F4C31803 /* SwiftKeyer */ = {
+			isa = PBXGroup;
+			children = (
+				A4138A8DF8741937BB4E9D38 /* Sources */,
+				53D93AF12B17DB8897526A12 /* Tests */,
+				C7FA6F0BEDBE05EDD23FFB87 /* Products */,
+				DE68449930715BB90091587B /* swiftkeyer 2.icon */,
+			);
+			name = SwiftKeyer;
+			sourceTree = "<group>";
+		};
+		53D93AF12B17DB8897526A12 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC31992A995D14E7CE14D57D /* SwiftKeyerCoreTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		92E7CDAE3ED09A72B4B25C4C /* CSerialShim */ = {
@@ -181,46 +177,16 @@
 				BA32507AF49A35D505D61D07 /* shim.c */,
 			);
 			path = CSerialShim;
-			name = CSerialShim;
 			sourceTree = "<group>";
 		};
-		1E6357C6F9408C25580BEF4C /* include */ = {
+		A4138A8DF8741937BB4E9D38 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */,
+				D53811CFC242896D993F82B4 /* SwiftKeyerApp */,
+				38840456337C4814F54CEA63 /* SwiftKeyerCore */,
+				92E7CDAE3ED09A72B4B25C4C /* CSerialShim */,
 			);
-			path = include;
-			name = include;
-			sourceTree = "<group>";
-		};
-		53D93AF12B17DB8897526A12 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				EC31992A995D14E7CE14D57D /* SwiftKeyerCoreTests */,
-			);
-			path = Tests;
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		EC31992A995D14E7CE14D57D /* SwiftKeyerCoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				9DEC02498954E143A31C27CB /* AppSettingsTests.swift */,
-				C79C2E8BC607E10F5EDEB22D /* WinKeyerProtocolTests.swift */,
-				C7C57FDFA579FD32F2663F63 /* XMLRPCTests.swift */,
-			);
-			path = SwiftKeyerCoreTests;
-			name = SwiftKeyerCoreTests;
-			sourceTree = "<group>";
-		};
-		1E6357C6F9408C25580BEF4C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				5B33FC6FF96573E7CA7ACAE2 /* CSerialShim.h */,
-				23F170A8F9DB14EB4ADC5D79 /* module.modulemap */,
-			);
-			path = include;
-			name = include;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		C7FA6F0BEDBE05EDD23FFB87 /* Products */ = {
@@ -234,18 +200,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D53811CFC242896D993F82B4 /* SwiftKeyerApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB99340611A8F7CB407B5CC2 /* AppModel.swift */,
+				AC9F1634AAAFDFD33D380758 /* ContentView.swift */,
+				2199A99D4B680F8A488A5996 /* SettingsView.swift */,
+				9D946413127C96D96D0E7811 /* SwiftKeyerApp.swift */,
+			);
+			path = SwiftKeyerApp;
+			sourceTree = "<group>";
+		};
+		EC31992A995D14E7CE14D57D /* SwiftKeyerCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC02498954E143A31C27CB /* AppSettingsTests.swift */,
+				C79C2E8BC607E10F5EDEB22D /* WinKeyerProtocolTests.swift */,
+				C7C57FDFA579FD32F2663F63 /* XMLRPCTests.swift */,
+			);
+			path = SwiftKeyerCoreTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C65490047A8F6AF81E006D37 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C23B2F9AF445A03CCDDE400C /* CSerialShim.h in Headers */,
-			);
-			settings = {ATTRIBUTES = (Public, ); };
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4CCC7FB90F419FFDBE90C857 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,44 +231,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C65490047A8F6AF81E006D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B2F9AF445A03CCDDE400C /* CSerialShim.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 97E6404242DAC41A5A386D1F /* Build configuration list for PBXNativeTarget "CSerialShim" */;
-			buildPhases = (
-				C65490047A8F6AF81E006D37 /* Headers */,
-				CDFF4CE1B45B31FE64D89DEB /* Sources */,
-				0D1DA6D0654ED08F33F4DA8F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CSerialShim;
-			productName = CSerialShim;
-			productReference = AEEB1E87E19B8D460F81633D /* libCSerialShim.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		76F679FD2E3B90C4F9B2654A /* SwiftKeyerCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B32DF112A8ABFCB17CDCFD47 /* Build configuration list for PBXNativeTarget "SwiftKeyerCore" */;
-			buildPhases = (
-				4CCC7FB90F419FFDBE90C857 /* Headers */,
-				FC3B1BBB8748A499003D4E5E /* Sources */,
-				F11C49D50F73C1EFE5E0C043 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C009F281387EBF9D90F756D1 /* PBXTargetDependency */,
-			);
-			name = SwiftKeyerCore;
-			productName = SwiftKeyerCore;
-			productReference = E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		03C7A861466BD46E26C2BF1F /* SwiftKeyerApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EF7C61F4A0A811AE602731D /* Build configuration list for PBXNativeTarget "SwiftKeyerApp" */;
@@ -328,6 +279,41 @@
 			productReference = EB01C81EA8384F5396E638ED /* SwiftKeyerCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		76F679FD2E3B90C4F9B2654A /* SwiftKeyerCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32DF112A8ABFCB17CDCFD47 /* Build configuration list for PBXNativeTarget "SwiftKeyerCore" */;
+			buildPhases = (
+				4CCC7FB90F419FFDBE90C857 /* Headers */,
+				FC3B1BBB8748A499003D4E5E /* Sources */,
+				F11C49D50F73C1EFE5E0C043 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C009F281387EBF9D90F756D1 /* PBXTargetDependency */,
+			);
+			name = SwiftKeyerCore;
+			productName = SwiftKeyerCore;
+			productReference = E28931E77480B5DE73FF1FA1 /* libSwiftKeyerCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E6404242DAC41A5A386D1F /* Build configuration list for PBXNativeTarget "CSerialShim" */;
+			buildPhases = (
+				C65490047A8F6AF81E006D37 /* Headers */,
+				CDFF4CE1B45B31FE64D89DEB /* Sources */,
+				0D1DA6D0654ED08F33F4DA8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSerialShim;
+			productName = CSerialShim;
+			productReference = AEEB1E87E19B8D460F81633D /* libCSerialShim.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,16 +324,16 @@
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					A5D3B7D3F44F57D65AC0AA0F = {
+					03C7A861466BD46E26C2BF1F = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					1667184C045F2C4E84661963 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 					76F679FD2E3B90C4F9B2654A = {
 						CreatedOnToolsVersion = 27.0;
 					};
-					03C7A861466BD46E26C2BF1F = {
-						CreatedOnToolsVersion = 27.0;
-					};
-					1667184C045F2C4E84661963 = {
+					A5D3B7D3F44F57D65AC0AA0F = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
@@ -360,7 +346,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 4A4B39DD2B447031F4C31803;
+			mainGroup = 4A4B39DD2B447031F4C31803 /* SwiftKeyer */;
 			productRefGroup = C7FA6F0BEDBE05EDD23FFB87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -378,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE68449A30715BB90091587B /* swiftkeyer 2.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +378,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		74B6E11456284BAB12AC4635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B95D8CCF332683BAC930B8A /* AppModel.swift in Sources */,
+				8B454CBF3C3274DE86271B5F /* ContentView.swift in Sources */,
+				786DB3FE41FEBF4003944F78 /* SettingsView.swift in Sources */,
+				3056A1D250303364C3D9AB58 /* SwiftKeyerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F538081A591771AEB88879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B588DC9DED1791EF9F02EC /* AppSettingsTests.swift in Sources */,
+				721228EFED8580BBAA245DD9 /* WinKeyerProtocolTests.swift in Sources */,
+				66983CB0A2D6A7EDEFA52C14 /* XMLRPCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CDFF4CE1B45B31FE64D89DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,40 +423,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74B6E11456284BAB12AC4635 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B95D8CCF332683BAC930B8A /* AppModel.swift in Sources */,
-				8B454CBF3C3274DE86271B5F /* ContentView.swift in Sources */,
-				786DB3FE41FEBF4003944F78 /* SettingsView.swift in Sources */,
-				3056A1D250303364C3D9AB58 /* SwiftKeyerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F538081A591771AEB88879A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96B588DC9DED1791EF9F02EC /* AppSettingsTests.swift in Sources */,
-				721228EFED8580BBAA245DD9 /* WinKeyerProtocolTests.swift in Sources */,
-				66983CB0A2D6A7EDEFA52C14 /* XMLRPCTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C009F281387EBF9D90F756D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */;
-			targetProxy = 473892E0DC1D425873A8A8CD /* PBXContainerItemProxy */;
-		};
-		E714C1ACE61400B945E5862E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */;
-			targetProxy = 148C956F9BED8DE8641F81DF /* PBXContainerItemProxy */;
-		};
 		0AB5BBCC61AB025B190DBF31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 76F679FD2E3B90C4F9B2654A /* SwiftKeyerCore */;
@@ -459,9 +436,165 @@
 			target = 76F679FD2E3B90C4F9B2654A /* SwiftKeyerCore */;
 			targetProxy = 7FE0BFFA22B4D962DE19E674 /* PBXContainerItemProxy */;
 		};
+		C009F281387EBF9D90F756D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */;
+			targetProxy = 473892E0DC1D425873A8A8CD /* PBXContainerItemProxy */;
+		};
+		E714C1ACE61400B945E5862E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D3B7D3F44F57D65AC0AA0F /* CSerialShim */;
+			targetProxy = 148C956F9BED8DE8641F81DF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2D031DF5B009960B6860B77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = swiftkeyer;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyer;
+				PRODUCT_NAME = SwiftKeyer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		368AA2C79C3F5EA6547C4BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46D77552FDA64D58DDB8A850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				MODULEMAP_FILE = Sources/CSerialShim/include/module.modulemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57F2F0D7168F1EC8380990CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CSerialShim/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(SRCROOT)/Sources/CSerialShim/include";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674AF09C8AB7970A717218AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyerCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A657652EEB3A3CBDB023B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				MODULEMAP_FILE = Sources/CSerialShim/include/module.modulemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8C6A266DD7CE95FC24BE2A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyerCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B106339F624036E84176702C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -523,98 +656,11 @@
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_INCLUDE_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CSerialShim/include",
-				);
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(SRCROOT)/Sources/CSerialShim/include";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
-		};
-		57F2F0D7168F1EC8380990CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CSerialShim/include",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INCLUDE_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CSerialShim/include",
-				);
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		46D77552FDA64D58DDB8A850 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				MODULEMAP_FILE = Sources/CSerialShim/include/module.modulemap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6A657652EEB3A3CBDB023B8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				MODULEMAP_FILE = Sources/CSerialShim/include/module.modulemap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		CD0A0901319A21F838E22B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -625,18 +671,11 @@
 			};
 			name = Debug;
 		};
-		368AA2C79C3F5EA6547C4BB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		F72AF4576429E8D3ABBB6F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = swiftkeyer;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -655,69 +694,15 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
-		};
-		2D031DF5B009960B6860B77F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyer;
-				PRODUCT_NAME = SwiftKeyer;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Release;
-		};
-		674AF09C8AB7970A717218AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyerCoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8C6A266DD7CE95FC24BE2A31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbridak.SwiftKeyerCoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8B1D79F52ECBD9A795CFADF /* Build configuration list for PBXProject "SwiftKeyer" */ = {
+		599F6AF9A1864F75693872A2 /* Build configuration list for PBXNativeTarget "SwiftKeyerCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B106339F624036E84176702C /* Debug */,
-				57F2F0D7168F1EC8380990CF /* Release */,
+				674AF09C8AB7970A717218AB /* Debug */,
+				8C6A266DD7CE95FC24BE2A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,15 +716,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B32DF112A8ABFCB17CDCFD47 /* Build configuration list for PBXNativeTarget "SwiftKeyerCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD0A0901319A21F838E22B93 /* Debug */,
-				368AA2C79C3F5EA6547C4BB9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9EF7C61F4A0A811AE602731D /* Build configuration list for PBXNativeTarget "SwiftKeyerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -749,11 +725,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		599F6AF9A1864F75693872A2 /* Build configuration list for PBXNativeTarget "SwiftKeyerCoreTests" */ = {
+		B32DF112A8ABFCB17CDCFD47 /* Build configuration list for PBXNativeTarget "SwiftKeyerCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				674AF09C8AB7970A717218AB /* Debug */,
-				8C6A266DD7CE95FC24BE2A31 /* Release */,
+				CD0A0901319A21F838E22B93 /* Debug */,
+				368AA2C79C3F5EA6547C4BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B1D79F52ECBD9A795CFADF /* Build configuration list for PBXProject "SwiftKeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B106339F624036E84176702C /* Debug */,
+				57F2F0D7168F1EC8380990CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

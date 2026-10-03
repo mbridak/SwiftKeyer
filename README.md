@@ -2,6 +2,8 @@
 
 SwiftKeyer is a native macOS application for the K1EL WinKeyerSerial, WinKeyerUSB, and WKMini. It provides a SwiftUI interface for sending CW text, editing and sending macros, configuring paddle behavior, and controlling the keyer speed.
 
+It's primary purpose, other than a stand alone interface to the winkeyer, is to act as a CW interface for the [not1mm](https://github.com/mbridak/not1mm) contest logger.
+
 The application listens for XML-RPC requests on `127.0.0.1:8000`. The server is intentionally limited to the local machine so that the unauthenticated control API is not exposed to the network.
 
 ![Screenshot](pic/SwiftKeyerScreen.png)
